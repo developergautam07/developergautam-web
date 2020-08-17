@@ -1,0 +1,12 @@
+{
+"companyName": "Gautam_Studio",
+"productName": "Super_Shooter",
+"dataUrl": "SuperShooterWebNew.data.unityweb",
+"wasmCodeUrl": "SuperShooterWebNew.wasm.code.unityweb",
+"wasmFrameworkUrl": "SuperShooterWebNew.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block projectsactive %}active{% endblock projectsactive %}
+{% block title %}Projects{% endblock title %}
+{% block body %}
+<div class="section-title" style=" margin-top: 40px;">
+    <h2>My Projects</h2>
+    <p>Here are all my projects which I have made up till now.</p>
+</div>
+<br>
+<div class="row" style="width:1200px; margin-left:40px;">
+    <!-- First prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;  margin-top: 40px;">
+            <img src="{% static 'img/kobie.png' %}" class="card-img-top" alt="catch kobie" height="171.59" width="500">
+            <div class="card-body">
+                <h5 class="card-title">Catch Kobie</h5>
+                <p class="card-text">Catch Kobie was the first game that I had build using using construct2 Engine,
+                    and that's the only game I had build using it as after that I had switched to Unity3D</p><br>
+                <a href="{% static 'MyProjects/CatchKobie/CK-index.html' %}" class="btn btn-primary">Play Now</a>
+            </div>
+        </div>
+    </div> <!-- end First prj -->
+
+    <!-- Sec prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;  margin-top: 40px;">
+            <img src="{% static 'img/ssc.png' %}" class="card-img-top" height="171.59" width="500" alt="SuperShooter">
+            <div class="card-body">
+                <h5 class="card-title">Blocky: The Super Shooter</h5>
+                <p class="card-text">Super Shooter is a 2.5D Game made with Unity3d Engine and the scripts are
+                    written in UnityC#. <br>
+                    Note: The Audio might not work in Play Now as browers sometime don't support WebGl but you could
+                    download it from <a href="https://www.gautamgamezone.blogspot.com"> here </a></p>
+                <a href="{% static 'MyProjects/SuperShooterWebNew/SS-index.html' %}" class="btn btn-primary">Play
+                    Now</a>
+            </div>
+        </div>
+    </div> <!-- end sec prj -->
+    <!-- 3rd prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;  margin-top: 40px;">
+            <img src="{% static 'img/forest.png' %}" class="card-img-top" height="171.59" width="500"
+                alt="ForestBasketball">
+            <div class="card-body">
+                <h5 class="card-title">Forest Basketball</h5>
+                <p class="card-text">Forest Basketball is a 3D Hyper Casual FPS Basketball game in which Player have
+                    to throw the ball in the basket. <br><br><br><br></p>
+                <a href="https://developergautam.itch.io/forest-basketball" class="btn btn-primary">Download Now</a>
+            </div>
+        </div>
+    </div><!-- end 3rd prj -->
+    <!-- 4th prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="{% static 'img/te.png' %}" class="card-img-top" alt="catch kobie" height="171.59" width="500">
+            <div class="card-body">
+                <h5 class="card-title">Text Editor</h5>
+                <p class="card-text">This is a small Text Editor App made with python Tkinter. Its Source code is also
+                    available on my GitHub Repository.</p><br><br><br>
+                <a href="https://developergautam.itch.io/tkinter-text-editor" class="btn btn-primary">Download Now</a>
+            </div>
+        </div>
+    </div><!-- end 4th prj -->
+
+    <!-- 5th prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;  margin-top: 40px;">
+            <img src="{% static 'img/si.png' %}" class="card-img-top" height="171.59" width="500" alt="SuperShooter">
+            <div class="card-body">
+                <h5 class="card-title">Space Invader</h5>
+                <p class="card-text">This is a Space Shooter Game made with python pygame. And all the assets are also
+                    made by me (including sound assets). Its Source code is also
+                    available on my GitHub Repository.</p><br>
+                <a href="https://developergautam.itch.io/space-invader" class="btn btn-primary">Download Now</a>
+            </div>
+        </div>
+    </div><!-- end 5th prj -->
+
+    <!-- 6th prj -->
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="{% static 'img/tdl.png' %}" class="card-img-top" height="171.59" width="500"
+                alt="ForestBasketball">
+            <div class="card-body">
+                <h5 class="card-title">TO-DO List</h5>
+                <p class="card-text">This is a small TODO-List app made with python tkinter. Its Source code is also
+                    available on my GitHub Repository.<br><br><br><br></p>
+                <a href="https://developergautam.itch.io/todo-list" class="btn btn-primary">Download Now</a>
+            </div>
+        </div>
+    </div><!-- end 6th prj -->
+</div>
+</div>
+<br>
+<br>
+<br>
+
+{%endblock body%}

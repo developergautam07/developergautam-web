@@ -1,0 +1,25 @@
+﻿{
+	"name": "Catch Kobie",
+	"version": "1.0.0.1",
+	"description": "Catch The Dragon(Kobie)",
+	"id": "",
+	"viewport-width": 640,
+	"viewport-height": 448,
+	"author": "Gautam Sharma",
+	"email": "gautams1831@gmail.com",
+	"website": "",
+	"orientations": "any",
+	"c2version": "255",
+	"used-plugins": [
+		"Audio",
+		"LocalStorage",
+		"Mouse",
+		"Sprite",
+		"Text"
+	],
+	"used-behaviors": [
+		"Bullet",
+		"Flash",
+		"solid"
+	]
+}
