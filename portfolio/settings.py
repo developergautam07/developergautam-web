@@ -9,10 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-<<<<<<< HEAD
-#import django_heroku
-=======
->>>>>>> 0342e239cae6175abaac2b4c8c464e638286df78
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -26,13 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'r3^q4+88@cwu6$5$ahdl*!&5h@^)tf=8l+%w@b$#6040+54(sf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['ec2-52-87-190-169.compute-1.amazonaws.com']
-=======
-ALLOWED_HOSTS = ["ec2-52-87-190-169.compute-1.amazonaws.com"]
->>>>>>> 0342e239cae6175abaac2b4c8c464e638286df78
 
 
 # Application definition
@@ -131,9 +124,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-<<<<<<< HEAD
-
-# Activate Django-Heroku.
-#django_heroku.settings(locals())
-=======
->>>>>>> 0342e239cae6175abaac2b4c8c464e638286df78
