@@ -53,56 +53,61 @@
 </div>
 <!-- ======= Hero Section ======= -->
 
-<main id="main">
+<!-- <main id="main"> -->
     <!-- ===== Cards Section ===== -->
-    <div class="row" style="width:1200px; margin-left:100px;">
-        <!-- Free Video Tuts -->
-        <div class="col-md-4">
-            <div class="card my-2 p-2 align-items-center" style="width: 18rem;  margin-top: 40px;">
-            <img src="{% static 'img/tuts.jpg' %}" class="card-img-top" alt="Tutorials" height="171.59" width="500">
-                <div class="card-body">
-                    <h5 class="card-title">Free Video Tutorials</h5>
-                    <p class="card-text">Start learning programming with these free video tutorials.
-                        Source code is available with the project videos for your better experience.</p><br>
-                    <a href="https://www.youtube.com/channel/UCHc8grk1qQ_LjEODq0clKqA/videos"
-                        class="btn btn-primary">Browse Now</a>
+    <section>
+        <div class="row" style="margin-left:40px;">
+            <!-- Free Video Tuts -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;  margin-top: 40px;">
+                    <img src="{% static 'img/tuts.jpg' %}" class="card-img-top" alt="Tutorials" height="171.59"
+                        width="500">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Video Tutorials</h5>
+                        <p class="card-text">Start learning programming with these free video tutorials.
+                            Source code is available with the project videos for your better experience.</p><br>
+                        <a href="https://www.youtube.com/channel/UCHc8grk1qQ_LjEODq0clKqA/videos"
+                            class="btn btn-primary">Browse Now</a>
+                    </div>
+                </div>
+            </div> <!-- End FVT -->
+
+            <!-- Programming Articles -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;  margin-top: 40px;">
+                    <img src="{% static 'img/article.jpg' %}" class="card-img-top" alt="Article" height="171.59"
+                        width="500">
+                    <div class="card-body">
+                        <h5 class="card-title">Programming Articles</h5>
+                        <p class="card-text">Get to know about the latest news of Developer Gautam Community & Tips on
+                            Programming & Development. <br><br></p><br>
+                        <a href="https://www.developergautam07.ga/" class="btn btn-primary">Visit Our Blog</a>
+                    </div>
+                </div>
+            </div> <!-- End PA -->
+
+            <!-- Contact -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;  margin-top: 40px;">
+                    <img src="{% static 'img/contact.jpg' %}" class="card-img-top" alt="contact" height="171.59"
+                        width="500">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Me</h5>
+                        <p class="card-text">You can contact me for any queries/doubts, and I will get back to you!
+                            <br><br><br>
+                        </p><br>
+                        <a href="/contact" class="btn btn-primary">Contact Me</a>
+                    </div>
                 </div>
             </div>
-        </div> <!-- End FVT -->
+            <!-- End Contact -->
 
-        <!-- Programming Articles -->
-        <div class="col-md-4">
-            <div class="card my-2 p-2 align-items-center" style="width: 18rem;  margin-top: 40px;">
-                <img src="{% static 'img/article.jpg' %}" class="card-img-top" alt="Article" height="171.59"
-                    width="500">
-                <div class="card-body">
-                    <h5 class="card-title">Programming Articles</h5>
-                    <p class="card-text">Get to know about the latest news of Developer Gautam Community & Tips on
-                        Programming & Development. <br><br></p><br>
-                    <a href="https://www.developergautam07.ga/" class="btn btn-primary">Visit Our Blog</a>
-                </div>
-            </div>
-        </div> <!-- End PA -->
+        </div>
+    </section>
+        <br>
+        <br>
+        <br>
+        <br>
 
-        <!-- Contact -->
-        <div class="col-md-4">
-            <div class="card my-2 p-2 align-items-center" style="width: 18rem;  margin-top: 40px;">
-                <img src="{% static 'img/contact.jpg' %}" class="card-img-top" alt="contact" height="171.59"
-                    width="500">
-                <div class="card-body">
-                    <h5 class="card-title">Contact Me</h5>
-                    <p class="card-text">You can contact me for any queries/doubts, and I will get back to you! <br><br><br>
-                    </p><br>
-                    <a href="/contact" class="btn btn-primary">Contact Me</a>
-                </div>
-            </div>
-        </div> <!-- End Contact -->
-
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- <script src="/static/js/main.js"></script> -->
-    {%endblock body%}
+        <!-- <script src="/static/js/main.js"></script> -->
+        {%endblock body%}
