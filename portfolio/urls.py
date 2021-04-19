@@ -15,13 +15,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from home.sitemaps import ViewSitemaps
+from django.contrib.sitemaps.views import sitemap
 
 # Django admin header customize
 admin.site.site_header = "Login to Developer Gautam"
 admin.site.site_title = "Gautam's Dashboard"
 admin.site.index_title = "Welcome to Portal"
 
+sitemaps = {
+    'static': ViewSitemaps
+}
+
 urlpatterns = [
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
     path('admin/', admin.site.urls),
     path('', include('home.urls'))
 ]
